@@ -1,0 +1,55 @@
+.mycard {
+  display: flex;
+  margin: 2rem 0rem;
+}
+
+.mycard:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.mycard:nth-child(odd) .image {
+  justify-content: flex-end;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  align-self: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.description {
+  flex: 1;
+}
+
+.image img {
+  width: 30rem;
+}
+
+.mycard .description {
+  margin: 2rem 0rem;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon img {
+  max-width: 50px;
+  height: 50px;
+}
+
+.desc-1 {
+  margin-bottom: 2rem;
+}
+
+.desc-2 {
+  color: #000 !important;
+  padding: 1.5rem 1.25rem !important;
+  background-color: #e9ebff !important;
+  border: none !important;
+}

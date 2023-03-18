@@ -1,1 +1,1 @@
-# NAXA task for frontend internship evaluation
+# NAXA task for frontend development evaluation
